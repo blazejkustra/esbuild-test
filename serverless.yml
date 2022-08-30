@@ -14,7 +14,7 @@ custom:
   esbuild:
     bundle: true
     minify: false
-    packager: 'npm'
+    packager: 'pnpm'
     external: ['puppeteer-core', '@sparticuz/chrome-aws-lambda']
 
 plugins:
